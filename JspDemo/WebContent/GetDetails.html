@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome Page</title>
+<style type="text/css">
+body {
+	background: white;
+	font: bold;
+	font-size: larger;
+	text-align: justify;
+}
+
+th {
+	color: green;
+}
+</style>
+</head>
+<body>
+	<form action="JspDetails.jsp" class="forms" method="get">
+		<div>
+			<input type="radio" name="radios" value="1"><label>Create
+				an account</label><br />
+		</div>
+		<div>
+			<input type="radio" name="radios" value="2"><label>Update
+				an account</label><br />
+		</div>
+		<div>
+			<input type="radio" name="radios" value="3"><label>Read
+				account details</label><br />
+		</div>
+		<div>
+			<input type="radio" name="radios" value="4"><label>Delete
+				an account</label><br />
+		</div>
+		<div>
+			Username:<input type="text" name="username" required="required">
+		</div>
+		<div>
+			Password:<input type="password" name="password" required="required">
+		</div>
+		<div>
+			<input type="submit" name="submit" value="submit">
+		</div>
+	</form>
+</body>
+</html>
